@@ -1,13 +1,9 @@
 import React from 'react'
 import './portfolio.css'
-//import IMG1 from '../../assets/portfolio1.jpg'
-// import IMG2 from '../../assets/portfolio2.jpg'
-import IMG2 from '../../assets/home.PNG'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
-import movie from '../../assets/movie-database-croped.jpeg'
+
+import IMG1 from '../../assets/movie-database-croped.jpeg'
+import IMG2 from '../../assets/recipeHome.PNG'
+import IMG3 from '../../assets/ethioJobHome.PNG'
 
 
 const Portfolio = () => {
@@ -20,7 +16,7 @@ const Portfolio = () => {
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={movie} alt="movie" />
+            <img src={IMG1} alt="movie" />
           </div>
             <h3>Movie Database</h3>
 
@@ -46,47 +42,11 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="portfolio" />
           </div>
-            <h3>Portfolio Title</h3>
+            <h3>Ethio Job</h3>
 
             <div className="portfolio__item-cta">
-              <a href="https://github.com" className='btn' target={'_blank'} rel="noreferrer">Github</a>
-              <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target={'_blank'} rel="noreferrer">Live Demo</a>
-            </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="portfolio" />
-          </div>
-            <h3>Portfolio Title</h3>
-
-            <div className="portfolio__item-cta">
-              <a href="https://github.com" className='btn' target={'_blank'} rel="noreferrer">Github</a>
-              <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target={'_blank'} rel="noreferrer">Live Demo</a>
-            </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt="portfolio" />
-          </div>
-            <h3>Portfolio Title</h3>
-
-            <div className="portfolio__item-cta">
-              <a href="https://github.com" className='btn' target={'_blank'} rel="noreferrer">Github</a>
-              <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target={'_blank'} rel="noreferrer">Live Demo</a>
-            </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG6} alt="portfolio" />
-          </div>
-            <h3>Portfolio Title</h3>
-
-            <div className="portfolio__item-cta">
-              <a href="https://github.com" className='btn' target={'_blank'} rel="noreferrer">Github</a>
-              <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target={'_blank'} rel="noreferrer">Live Demo</a>
+              <a href="https://github.com/BereketTeshome/Ethio-Jobs.git" className='btn' target={'_blank'} rel="noreferrer">Github</a>
+              <a href="https://www.upwork.com/freelancers/~013c18cc64d84ad32b?p=1688500293268570112" className='btn btn-primary' target={'_blank'} rel="noreferrer">Live Demo</a>
             </div>
         </article>
 
