@@ -23,7 +23,8 @@
 
 .portfolio__item-image img{
     height: 180px;
-    width: 260px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .portfolio__item h3{

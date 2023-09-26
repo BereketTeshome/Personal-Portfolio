@@ -45,7 +45,7 @@ const Portfolio = () => {
 
             <div className="portfolio__item-cta">
               <a href="https://github.com/BereketTeshome/Ethio-Jobs.git" className='btn' target={'_blank'} rel="noreferrer">Github</a>
-              <a href="https://www.upwork.com/freelancers/~013c18cc64d84ad32b?p=1688500293268570112" className='btn btn-primary' target={'_blank'} rel="noreferrer">Live Demo</a>
+              <a href="https://www.upwork.com/freelancers/~013c18cc64d84ad32b?p=1688500293268570112" className='btn btn-primary' target={'_blank'} rel="noreferrer">Video Demo</a>
             </div>
         </article>
 
