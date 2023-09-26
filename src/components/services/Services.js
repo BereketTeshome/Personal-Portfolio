@@ -17,9 +17,9 @@ const Services = () => {
 
           <ul className='service__list'>
             <li><GiCheckMark className='service__list-icon'/> <p>Landing pages</p></li>
-            <li><GiCheckMark className='service__list-icon'/> <p>PSD to HTML.</p></li>
-            <li><GiCheckMark className='service__list-icon'/> <p>XD to HTML</p></li>
-            <li><GiCheckMark className='service__list-icon'/> <p>Figma to HTML</p></li>
+            <li><GiCheckMark className='service__list-icon'/> <p>Clone Sites</p></li>
+            <li><GiCheckMark className='service__list-icon'/> <p>PSD to HTML</p></li>
+            <li><GiCheckMark className='service__list-icon'/> <p>Figma to HTML ...</p></li>
           </ul>
         </article>
 
@@ -29,8 +29,8 @@ const Services = () => {
           </div>
 
           <ul className='service__list'>
-            <li><GiCheckMark className='service__list-icon'/> <p>HTML Email signatures</p></li>
-            <li><GiCheckMark className='service__list-icon'/> <p>W3C validated</p></li>
+            <li><GiCheckMark className='service__list-icon'/> <p>Well Optimized</p></li>
+            <li><GiCheckMark className='service__list-icon'/> <p>Responsive Designs</p></li>
             <li><GiCheckMark className='service__list-icon'/> <p>SEO friendly code</p></li>
             <li><GiCheckMark className='service__list-icon'/> <p>Compatibility with ALL major browsers</p></li>
           </ul>
@@ -42,10 +42,10 @@ const Services = () => {
           </div>
 
           <ul className='service__list'>
-            <li><GiCheckMark className='service__list-icon'/> <p>Movie databases</p></li>
-            <li><GiCheckMark className='service__list-icon'/> <p> API Implementations</p></li>
-            <li><GiCheckMark className='service__list-icon'/> <p>Responsive Designs</p></li>
-            <li><GiCheckMark className='service__list-icon'/> <p>SEO friendly</p></li>
+            <li><GiCheckMark className='service__list-icon'/> <p>Movie Websites</p></li>
+            <li><GiCheckMark className='service__list-icon'/> <p> Real-Estate</p></li>
+            <li><GiCheckMark className='service__list-icon'/> <p>Recipe Sites</p></li>
+            <li><GiCheckMark className='service__list-icon'/> <p>Job portal apps...</p></li>
           </ul>
         </article>
 

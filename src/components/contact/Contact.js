@@ -1,7 +1,7 @@
 import React, {useRef} from 'react'
 import {SiGmail} from 'react-icons/si'
 import {FaTelegramPlane} from 'react-icons/fa'
-import {MdTextsms} from 'react-icons/md'
+import {MdCall} from 'react-icons/md'
 import './contact.css'
 import emailjs from 'emailjs-com'
 
@@ -46,10 +46,10 @@ const Contact = () => {
         </article>
 
         <article className='contact__option'>
-          <MdTextsms className='contact-icon'/>
-          <h4>SMS</h4>
+          <MdCall className='contact-icon'/>
+          <h4>Call</h4>
           <h5>+251977622890</h5>
-          <a href="sms://+251977622890?body=Contact">send a message</a>
+          <a href="tel:0977622890">Ring the bell</a>
         </article>
 
       </div>
