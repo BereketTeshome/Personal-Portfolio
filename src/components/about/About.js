@@ -1,5 +1,5 @@
 import React from 'react'
-import me3 from '../../assets/me3.jpg'
+import me3 from '../../assets/pfp.jpg'
 import{FaAward} from 'react-icons/fa'
 import{FiUsers} from 'react-icons/fi'
 import{VscFolderLibrary} from 'react-icons/vsc'
