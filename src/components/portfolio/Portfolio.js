@@ -22,7 +22,7 @@ const Portfolio = () => {
 
             <div className="portfolio__item-cta">
               <a href="https://github.com/BereketTeshome/Recipe-Website.git" className='btn' target={'_blank'} rel="noreferrer">Github</a>
-              <a href="https://vimeo.com/868257886?share=copy" className='btn btn-primary' target={'_blank'} rel="noreferrer">Video Demo</a>
+              <a href="https://recipe-website-client.vercel.app" className='btn btn-primary' target={'_blank'} rel="noreferrer">Live Demo</a>
             </div>
         </article>
 
@@ -34,7 +34,7 @@ const Portfolio = () => {
 
             <div className="portfolio__item-cta">
               <a href="https://github.com/BereketTeshome/Dream-Home.git" className='btn' target={'_blank'} rel="noreferrer">Github</a>
-              <a href="https://vimeo.com/868261554?share=copy" className='btn btn-primary' target={'_blank'} rel="noreferrer">Video Demo</a>
+              <a href="https://dream-home-client.vercel.app" className='btn btn-primary' target={'_blank'} rel="noreferrer">Live Demo</a>
             </div>
         </article>
 
@@ -46,7 +46,7 @@ const Portfolio = () => {
 
             <div className="portfolio__item-cta">
               <a href="https://github.com/BereketTeshome/Ethio-Jobs.git" className='btn' target={'_blank'} rel="noreferrer">Github</a>
-              <a href="https://vimeo.com/869062148?share=copy" className='btn btn-primary' target={'_blank'} rel="noreferrer">Video Demo</a>
+              <a href="https://ethio-jobs-client.vercel.app" className='btn btn-primary' target={'_blank'} rel="noreferrer">Live Demo</a>
             </div>
         </article>
 
@@ -58,7 +58,7 @@ const Portfolio = () => {
 
             <div className="portfolio__item-cta">
               <a href="https://github.com/BereketTeshome/Afro-Store.git" className='btn' target={'_blank'} rel="noreferrer">Github</a>
-              <a href="https://vimeo.com/869063394?share=copy" className='btn btn-primary' target={'_blank'} rel="noreferrer">Video Demo</a>
+              <a href="https://afro-store-client.vercel.app" className='btn btn-primary' target={'_blank'} rel="noreferrer">Live Demo</a>
             </div>
         </article>
 
