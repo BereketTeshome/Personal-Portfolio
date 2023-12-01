@@ -18,7 +18,7 @@ const Experience = () => {
             <article className='experience__details'>
               <MdVerified className='experience__details-icon'/>
               <div>
-                <h4>HTML</h4>
+                <h4>HTML/CSS</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
@@ -26,7 +26,7 @@ const Experience = () => {
             <article className='experience__details'>
               <MdVerified className='experience__details-icon'/>
               <div>
-                <h4>CSS</h4>
+                <h4>Tailwind</h4>
               </div>
             </article>
 
