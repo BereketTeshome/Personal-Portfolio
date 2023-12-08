@@ -21,7 +21,8 @@
     transition: var(--transition);
 }
 .about__me-img img{
-    height: 400px;
+    height: 250px;
+    width: 250px;
 }
 
 .about__me-img:hover{

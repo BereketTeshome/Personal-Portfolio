@@ -19,7 +19,6 @@ const Experience = () => {
               <MdVerified className='experience__details-icon'/>
               <div>
                 <h4>HTML/CSS</h4>
-                {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
 

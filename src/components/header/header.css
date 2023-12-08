@@ -83,5 +83,10 @@ header{
     .header__socials, .scroll__down{
         display: none;
     }
+    header{
+        height: 120vh;
+        padding-top: 2rem;
+        overflow: hidden;
+    }
 
 }
