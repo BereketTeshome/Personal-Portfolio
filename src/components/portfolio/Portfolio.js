@@ -5,6 +5,7 @@ import IMG3 from "../../assets/ethioJobHome.png";
 import IMG4 from "../../assets/DreamHome.png";
 import IMG5 from "../../assets/AfroStore.png";
 import IMG6 from "../../assets/Flix_Search.png";
+import IMG7 from "../../assets/erkab.png";
 
 const Portfolio = () => {
   return (
@@ -30,6 +31,32 @@ const Portfolio = () => {
             </a>
             <a
               href="https://ethio-flix.vercel.app"
+              className="btn btn-primary"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG7} alt="portfolio" />
+          </div>
+          <h3>Erkab-Consultancy</h3>
+
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/BereketTeshome/Erkab_Consulting"
+              className="btn"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://erkabconsulting.com"
               className="btn btn-primary"
               target={"_blank"}
               rel="noreferrer"

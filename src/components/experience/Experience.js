@@ -30,7 +30,7 @@ const Experience = () => {
             <article className="experience__details">
               <MdVerified className="experience__details-icon" />
               <div>
-                <h4>Javascript</h4>
+                <h4>Next.js</h4>
               </div>
             </article>
 
@@ -72,7 +72,7 @@ const Experience = () => {
             <article className="experience__details">
               <MdVerified className="experience__details-icon" />
               <div>
-                <h4>Rest API</h4>
+                <h4>Django</h4>
               </div>
             </article>
           </div>
