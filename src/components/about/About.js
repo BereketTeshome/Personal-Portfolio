@@ -33,7 +33,7 @@ const About = () => {
               <article className="about__card">
                 <FiUsers className="about__icon" />
                 <h5>Clients</h5>
-                <small>3+ Worldwide</small>
+                <small>3+ </small>
               </article>
             </a>
 
@@ -51,7 +51,7 @@ const About = () => {
             user-friendly websites. My journey as a developer began with a
             curiosity about how websites are built and the desire to learn the
             necessary skills to build my own website. Through years of practice
-            and experience, I have honed my skills as a MERN-Stack developer and
+            and experience, I have honed my skills as a Full-Stack developer and
             other programming languages.
           </p>
 
