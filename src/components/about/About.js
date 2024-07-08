@@ -1,25 +1,57 @@
-import React from "react";
+import React, { useRef } from "react";
 import me3 from "../../assets/pfp.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-
 import "./about.css";
+import { motion, useInView } from "framer-motion";
 
 const About = () => {
+  const view = useRef();
+  const isInView = useInView(view, { once: true });
+
+  const containerVariants = {
+    visible: {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      transition: { duration: 1.4 },
+    },
+    hidden: {
+      x: "-100vw",
+      opacity: 0,
+      transition: { duration: 1.4 },
+    },
+    right: {
+      x: "100vw",
+      opacity: 0,
+      transition: { duration: 1.4 },
+    },
+  };
+
   return (
-    <section id="about">
+    <section id="about" ref={view}>
       <h5 className="about-h5">Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
+        <motion.div
+          className="about__me"
+          variants={containerVariants}
+          initial="hidden"
+          animate={isInView ? "visible" : "hidden"}
+        >
           <div className="about__me-img">
             <img src={me3} alt="About" />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="about__content">
+        <motion.div
+          className="about__content"
+          variants={containerVariants}
+          initial="right"
+          animate={isInView ? "visible" : "right"}
+        >
           <div className="about__cards">
             <a href="#experience">
               <article className="about__card">
@@ -58,7 +90,7 @@ const About = () => {
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
