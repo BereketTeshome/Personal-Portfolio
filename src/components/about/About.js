@@ -22,11 +22,6 @@ const About = () => {
       opacity: 0,
       transition: { duration: 1.4 },
     },
-    right: {
-      x: "100vw",
-      opacity: 0,
-      transition: { duration: 1.4 },
-    },
   };
 
   return (
@@ -50,7 +45,7 @@ const About = () => {
           className="about__content"
           variants={containerVariants}
           initial="right"
-          animate={isInView ? "visible" : "right"}
+          animate={isInView ? "visible" : "hidden"}
         >
           <div className="about__cards">
             <a href="#experience">

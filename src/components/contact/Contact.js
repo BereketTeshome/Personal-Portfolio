@@ -32,10 +32,8 @@ const Contact = () => {
   };
 
   const contactRef = useRef();
-  const formRef = useRef();
 
   const contactInView = useInView(contactRef, { once: true });
-  const formInView = useInView(formRef, { once: true });
 
   return (
     <section id="contact">
@@ -46,7 +44,7 @@ const Contact = () => {
         className="container contact__container"
         initial={{ opacity: 0 }}
         animate={contactInView && { opacity: 1 }}
-        transition={{ delay: 0.4, duration: 3 }}
+        transition={{ delay: 0.4, duration: 2.3 }}
         ref={contactRef}
       >
         <div className="contact__options">
