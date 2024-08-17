@@ -7,17 +7,31 @@ import IMG4 from "../../assets/DreamHome.png";
 import IMG5 from "../../assets/AfroStore.png";
 import IMG6 from "../../assets/Flix_Search.png";
 import IMG7 from "../../assets/erkab.png";
+import IMG8 from "../../assets/chart.PNG";
+import IMG9 from "../../assets/ahazHome.PNG";
 
 const portfolioItems = [
   {
     img: IMG6,
-    title: "Ethio-Flix",
+    title: "Ethio Flix",
     github: "https://github.com/BereketTeshome/Ethio-Flix.git",
     demo: "https://ethio-flix.vercel.app",
   },
   {
+    img: IMG8,
+    title: "Book Rent",
+    github: "https://github.com/BereketTeshome/Book_Rent",
+    demo: "https://book-rent-app.vercel.app",
+  },
+  {
+    img: IMG9,
+    title: "AHAZ Pharma",
+    github: "https://github.com/BereketTeshome/Ahaz-Pharma",
+    demo: "https://ahaz-web-app.vercel.app",
+  },
+  {
     img: IMG7,
-    title: "Erkab-Consultancy",
+    title: "Erkab Consultancy",
     github: "https://github.com/BereketTeshome/Erkab_Consulting",
     demo: "https://erkabconsulting.com",
   },
