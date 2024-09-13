@@ -9,6 +9,7 @@ import IMG6 from "../../assets/Flix_Search.png";
 import IMG7 from "../../assets/erkab.png";
 import IMG8 from "../../assets/chart.PNG";
 import IMG9 from "../../assets/ahazHome.PNG";
+import IMG10 from "../../assets/Addis-Musix-Home.png";
 
 const portfolioItems = [
   {
@@ -22,6 +23,12 @@ const portfolioItems = [
     title: "Book Rent",
     github: "https://github.com/BereketTeshome/Book_Rent",
     demo: "https://book-rent-app.vercel.app",
+  },
+  {
+    img: IMG10,
+    title: "Addis Musix",
+    github: "https://github.com/BereketTeshome/Addis-Musix",
+    demo: "https://addis-musix.vercel.app/",
   },
   {
     img: IMG9,

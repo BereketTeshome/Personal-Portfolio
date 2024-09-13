@@ -101,7 +101,7 @@ const Services = () => {
           custom={2}
         >
           <div className="service_head">
-            <h3>Web Applications</h3>
+            <h3>UI/UX Design</h3>
           </div>
           <ul className="service__list">
             <li>
