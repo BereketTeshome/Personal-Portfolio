@@ -74,12 +74,11 @@ const About = () => {
           </div>
 
           <p>
-            As a web developer, I am passionate about creating dynamic and
-            user-friendly websites. My journey as a developer began with a
-            curiosity about how websites are built and the desire to learn the
-            necessary skills to build my own website. Through years of practice
-            and experience, I have honed my skills as a Full-Stack developer and
-            other programming languages.
+            As a web developer and co-founder of Sheger Innovations, a web and
+            mobile app development company, I am passionate about creating
+            dynamic and user-friendly websites. My journey began with curiosity
+            about how websites are built, and over the years, I have honed my
+            skills as a Full-Stack developer through practice and experience.
           </p>
 
           <a href="#contact" className="btn btn-primary">

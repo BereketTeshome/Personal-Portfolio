@@ -41,6 +41,16 @@ const Header = () => {
           <h1>
             Bereket <span className="father-name">Teshome</span>
           </h1>
+          <h5 className="text-light">
+            CO-Founder of{" "}
+            <a
+              href="https://shegerinnovations.com.et"
+              target="_blank"
+              style={{ fontSize: "15px" }}
+            >
+              Sheger Innovations
+            </a>
+          </h5>
           <h5 className="text-light">Full-Stack Developer</h5>
         </motion.div>
         <motion.div
