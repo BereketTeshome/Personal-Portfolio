@@ -20,7 +20,7 @@ const portfolioItems = [
   },
   {
     img: IMG8,
-    title: "Book Rent",
+    title: "Book Rent (Desktop View Only)",
     github: "https://github.com/BereketTeshome/Book_Rent",
     demo: "https://book-rent-app.vercel.app",
   },
