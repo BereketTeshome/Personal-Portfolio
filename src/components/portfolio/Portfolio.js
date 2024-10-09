@@ -62,7 +62,7 @@ const portfolioItems = [
   },
   {
     img: IMG2,
-    title: "Recipe Website",
+    title: "Mama's Recipe",
     github: "https://github.com/BereketTeshome/Recipe-Website.git",
     demo: "https://recipe-website-client.vercel.app",
   },
