@@ -4,6 +4,7 @@ import CTA from "./CTA";
 import me from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 import { motion } from "framer-motion";
+import { FiExternalLink } from "react-icons/fi";
 
 const containerVariants = {
   visible: {
@@ -48,7 +49,7 @@ const Header = () => {
               target="_blank"
               style={{ fontSize: "15px" }}
             >
-              Sheger Innovations
+              Sheger Innovations <FiExternalLink />
             </a>
           </h5>
           <h5 className="text-light">Full-Stack Developer</h5>

@@ -29,7 +29,7 @@ const Experience = () => {
   return (
     <section id="experience">
       <h5>What skills I have</h5>
-      <h2>My Experience</h2>
+      <h2>My Top 16 Skills</h2>
 
       <div className="container experience__container">
         <motion.div

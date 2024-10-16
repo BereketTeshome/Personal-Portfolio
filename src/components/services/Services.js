@@ -75,6 +75,10 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <GiCheckMark className="service__list-icon" />{" "}
+              <p>AI Integration</p>
+            </li>
+            <li>
+              <GiCheckMark className="service__list-icon" />{" "}
               <p>Well Optimized</p>
             </li>
             <li>

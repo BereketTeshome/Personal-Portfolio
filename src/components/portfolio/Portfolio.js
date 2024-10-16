@@ -10,8 +10,16 @@ import IMG7 from "../../assets/erkab.png";
 import IMG8 from "../../assets/chart.PNG";
 import IMG9 from "../../assets/ahazHome.PNG";
 import IMG10 from "../../assets/Addis-Musix-Home.png";
+import IMG11 from "../../assets/home.PNG";
+import IMG1 from "../../assets/shegerHome.png";
 
 const portfolioItems = [
+  {
+    img: IMG1,
+    title: "Sheger Innovations",
+    github: "https://github.com/BereketTeshome/Sheger-Innovations",
+    demo: "https://shegerinnovations.com.et",
+  },
   {
     img: IMG6,
     title: "Ethio Flix",
@@ -25,28 +33,28 @@ const portfolioItems = [
     demo: "https://book-rent-app.vercel.app",
   },
   {
-    img: IMG10,
-    title: "Addis Musix",
-    github: "https://github.com/BereketTeshome/Addis-Musix",
-    demo: "https://addis-musix.vercel.app/",
-  },
-  {
-    img: IMG9,
-    title: "AHAZ Pharma",
-    github: "https://github.com/BereketTeshome/Ahaz-Pharma",
-    demo: "https://ahaz-web-app.vercel.app",
-  },
-  {
-    img: IMG7,
-    title: "Erkab Consultancy",
-    github: "https://github.com/BereketTeshome/Erkab_Consulting",
-    demo: "https://erkabconsulting.com",
+    img: IMG11,
+    title: "2F-Pizza",
+    github: "https://github.com/BereketTeshome/2F_Pizza",
+    demo: "https://2fpizza.vercel.app",
   },
   {
     img: IMG4,
     title: "Dream Home",
     github: "https://github.com/BereketTeshome/Dream-Home.git",
     demo: "https://dream-home-client.vercel.app",
+  },
+  {
+    img: IMG10,
+    title: "Addis Musix",
+    github: "https://github.com/BereketTeshome/Addis-Musix",
+    demo: "https://addis-musix.vercel.app/",
+  },
+  {
+    img: IMG7,
+    title: "Erkab Consultancy",
+    github: "https://github.com/BereketTeshome/Erkab_Consulting",
+    demo: "https://erkabconsulting.com",
   },
   {
     img: IMG3,
@@ -65,6 +73,12 @@ const portfolioItems = [
     title: "Mama's Recipe",
     github: "https://github.com/BereketTeshome/Recipe-Website.git",
     demo: "https://recipe-website-client.vercel.app",
+  },
+  {
+    img: IMG9,
+    title: "AHAZ Pharma",
+    github: "https://github.com/BereketTeshome/Ahaz-Pharma",
+    demo: "https://ahaz-web-app.vercel.app",
   },
 ];
 
