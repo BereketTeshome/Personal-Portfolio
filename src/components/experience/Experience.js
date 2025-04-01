@@ -86,7 +86,7 @@ const Experience = () => {
             <article className="experience__details">
               <MdVerified className="experience__details-icon" />
               <div>
-                <h4>Go</h4>
+                <h4>Nest.js</h4>
               </div>
             </article>
             <article className="experience__details">
