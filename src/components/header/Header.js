@@ -43,6 +43,16 @@ const Header = () => {
             Bereket <span className="father-name">Teshome</span>
           </h1>
           <h5 className="text-light">
+            Top Rated Full-Stack Developer on{" "}
+            <a
+              href="https://www.upwork.com/freelancers/~013c18cc64d84ad32b"
+              target="_blank"
+              style={{ fontSize: "15px" }}
+            >
+              Upwork <FiExternalLink />
+            </a>
+          </h5>
+          <h5 className="text-light">
             CO-Founder of{" "}
             <a
               href="https://shegerinnovations.com.et"
@@ -52,7 +62,6 @@ const Header = () => {
               Sheger Innovations <FiExternalLink />
             </a>
           </h5>
-          <h5 className="text-light">Full-Stack Developer</h5>
         </motion.div>
         <motion.div
           variants={containerVariants}
