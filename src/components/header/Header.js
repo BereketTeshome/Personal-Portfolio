@@ -51,17 +51,7 @@ const Header = () => {
             >
               Upwork <FiExternalLink />
             </a>
-          </h5>
-          <h5 className="text-light">
-            CO-Founder of{" "}
-            <a
-              href="https://shegerinnovations.com.et"
-              target="_blank"
-              style={{ fontSize: "15px" }}
-            >
-              Sheger Innovations <FiExternalLink />
-            </a>
-          </h5>
+          </h5>           
         </motion.div>
         <motion.div
           variants={containerVariants}

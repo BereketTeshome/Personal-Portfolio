@@ -52,7 +52,7 @@ const About = () => {
               <article className="about__card">
                 <FaAward className="about__icon" />
                 <h5>Experience</h5>
-                <small>3.5 Years</small>
+                <small>4 Years</small>
               </article>
             </a>
 
@@ -74,7 +74,7 @@ const About = () => {
           </div>
 
           <p>
-            As a web developer and co-founder of Sheger Innovations, a web and
+            As a web developer and former co-founder of Sheger Innovations, a web and
             mobile app development company, I am passionate about creating
             dynamic and user-friendly websites. My journey began with curiosity
             about how websites are built, and over the years, I have honed my
