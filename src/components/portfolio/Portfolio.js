@@ -18,7 +18,7 @@ const portfolioItems = [
     img: IMG1,
     title: "Sheger Innovations",
     github: "https://github.com/BereketTeshome/Sheger-Innovations",
-    demo: "https://shegerinnovations.com.et",
+    demo: "https://sheger-innovations.vercel.app",
   },
   {
     img: IMG6,

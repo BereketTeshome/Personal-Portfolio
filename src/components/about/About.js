@@ -74,8 +74,7 @@ const About = () => {
           </div>
 
           <p>
-            As a web developer and former co-founder of Sheger Innovations, a web and
-            mobile app development company, I am passionate about creating
+            As a web and mobile app developer, I am passionate about creating
             dynamic and user-friendly websites. My journey began with curiosity
             about how websites are built, and over the years, I have honed my
             skills as a Full-Stack developer through practice and experience.
