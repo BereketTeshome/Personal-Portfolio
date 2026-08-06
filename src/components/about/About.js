@@ -74,10 +74,13 @@ const About = () => {
           </div>
 
           <p>
-            As a web and mobile app developer, I am passionate about creating
-            dynamic and user-friendly websites. My journey began with curiosity
-            about how websites are built, and over the years, I have honed my
-            skills as a Full-Stack developer through practice and experience.
+            As a Full-Stack engineer specializing in AI, DevOps, and complex
+            backend systems, I am passionate about building intelligent,
+            scalable, and high-performance applications. My journey began with
+            curiosity about how software is built, and over the years I have
+            evolved from web and mobile development into designing robust
+            architectures, AI-powered features, and reliable infrastructure
+            through continuous practice and real-world experience.
           </p>
 
           <a href="#contact" className="btn btn-primary">
